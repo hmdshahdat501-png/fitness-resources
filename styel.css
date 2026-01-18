@@ -1,0 +1,414 @@
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+li{
+    margin-left: 60px;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+.logo{
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-style: italic;
+    color:#E6533C;
+}
+.homerb{
+    display: none;
+}
+.banner-setion{
+    display: flex;
+    gap: 87px;
+    margin-top: 32px;
+   
+    justify-content: space-between;
+    position: relative;
+}
+.contect-section{
+    width: 50%;
+}
+.contect-section h1{
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 90px;
+}
+.contect-section p{
+    font-size:1rem;
+    padding: 28px 0px ;
+}
+.bt{
+    padding: 16px 46px;
+    background-color: #E6533C;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    color:white;
+    margin-right: 10px;
+}
+.img-section{
+    
+    position: relative;
+    
+}
+.ft{
+    position: absolute;
+    top: 150px;
+    background-color: rgba(128, 128, 128, 0.562);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    right: -50px;
+}
+.ft h4{
+    font-size: 3rem;
+}
+.fr h4{
+    font-size: 3rem;
+}
+.fr{
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.562);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    top: 400px;
+    right: 300px;
+    display: flex;
+    align-items: center;
+}
+.car{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+}
+
+
+/* tarin-sctetopon */
+
+.hadit{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.hed{
+    text-align: center;
+}
+.hed h1{
+    font-size: 3rem;
+}
+.hed p{
+    padding: 10px 0px;
+}
+
+.hadti-card{
+    display:flex;
+    margin-top: 58px;
+    gap: 36px;
+    text-align: center;
+    
+}
+
+.card img{
+    width: 100%;
+    border-radius: 50%;
+}
+.card h3{
+    margin-top: 30px;
+}
+
+.run-setion{
+    max-width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    gap: 165px;
+    background-color: rgba(0, 0, 0, 0.715);
+    border-radius: 10px;
+}
+.img-section{
+    
+}
+.img-section img{
+    width: 100%;
+    padding: 30px;
+    border-radius: 10%;
+}
+.run-cont{
+    padding: 0px 30px;
+    padding-bottom: none;
+    margin-top: 20px;
+}
+.run-cont h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+.run-cont p{
+    padding: 10px 0px;
+    color: white;
+    font-size: 1rem;
+}
+.br{
+    margin: 20px 0px;
+}
+
+/* grid-imge setion */
+.sec-mid{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.cont-sec h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.cont-sec p{
+    font-size: 1rem;
+    padding: 20px 0px;
+}
+.img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    margin-top: 20px;
+    position: relative;
+
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+.box-2{
+    background-color: rgb(239, 84, 84);
+    grid-column: span 2;
+    
+}
+.box-2 p{
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    color: white;
+}
+.box-4{
+    background-color: rgb(135, 247, 247);
+    grid-column: span 2;
+ /* secd-grid */
+}
+
+.last-conte{
+    text-align: center;
+    margin-top: 88px;
+}
+.last-conte h1{
+    font-size: 3rem;
+}
+.last-conte p{
+    font-size: 1rem;
+    padding: 10px 0px;
+}
+.last-imgsection{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.last-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    background-color: rgba(0, 0, 0, 0.614);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.last-img img{
+    width: 100%;
+    height: 100%;
+    border-radius:5%;
+}
+footer{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 88px;
+    background-color: rgba(0, 0, 0, 0.744);
+    padding: 40px;
+    color: white;
+    gap: 20px;
+}
+.laft{
+    width: 55%;
+}
+.laft h2{
+    font-size: 5rem;
+    font-weight: bold;
+    color: #E6533C;
+    font-style: italic;
+    
+}
+.laft p{
+    font-size: 1rem;
+    padding: 20px 0px;
+}
+.last h4{
+    font-size: 2rem;
+    padding: 10px 0px;
+}
+.last p{
+    padding: 10px 0px ;
+}
+@media screen and (max-width:540px) {
+   .logo{
+    margin-left: 20px;
+   }
+    ul{
+    display: none;
+   } 
+   .homerb{
+    display: block;
+    margin-right: 20px;
+   }
+   .banner-setion{
+    display: block;
+}
+.contect-section{
+    width: 100%;
+}
+.img-section{
+    width: 100%;
+    margin-top: 50px;
+}
+.img-section img{
+    width: 100%;
+    position: relative;
+}
+.ft{
+    top: 150px;
+    right: 20px;
+}
+.fr{
+   
+    right: 190px;
+    top: 380px;
+    right: 150px;
+    display: flex;
+    align-items: center;
+}
+.ft h4{
+    font-size: 1.5rem;
+}
+.fr h4{
+    font-size: 1.5rem;
+}
+.contect-section h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 50px;
+    padding: 0px 20px;
+}
+.contect-section p{
+    font-size:1rem;
+    padding: 10px 20px;
+}
+.bt{
+    padding: 8px 20px;
+    background-color: #E6533C;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    color:white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.hadti-card{
+    display:block;
+    padding: 40px;
+
+    
+}
+.hadit{
+    padding: 0 px 20px;
+}
+.hed h1{
+    font-size: 2rem;
+    margin-top: none;
+}
+.card{
+    margin-bottom: 10px;
+    margin-top: ;
+}
+.run-setion{
+    max-width: 1100px;
+    display: block;
+    margin: 10px;
+}
+.br{
+    padding: 15px 100px;
+}
+.run-cont h1{
+    padding-top: 20px;
+}
+.img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    margin-top: 20px;
+}
+.box-5{
+    display: none;
+}
+.box-6{
+    display: none;
+}
+.box-2{
+    grid-column: span 1;
+}
+.box-4{
+    grid-column: span 1;
+}
+.sec-mid{
+    margin: 0px 10px;
+}
+.last-img{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin: 10px;
+}
+footer{
+    display: block;
+    margin: 0 auto;
+    margin-top: 88px;
+    background-color: rgba(0, 0, 0, 0.744);
+    padding: 40px;
+    color: white;
+    gap: 20px;
+}
